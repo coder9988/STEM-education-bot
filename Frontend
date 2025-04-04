@@ -1,0 +1,51 @@
+import React from 'react';
+import './App.css';
+
+const App = () => {
+  return (
+    <div className="app-container">
+      <header className="app-header">
+        <h1>STEM Education Bot</h1>
+        <p>Your AI-powered STEM learning assistant</p>
+      </header>
+
+      <main className="main-section">
+        <section className="feature">
+          <h2>📚 Topic-by-Topic Explanations</h2>
+          <p>Ask anything like "Teach me Newton's Laws" and get AI-generated explanations.</p>
+        </section>
+
+        <section className="feature">
+          <h2>🎮 Interactive Quizzes</h2>
+          <p>Test your knowledge with topic-specific questions and get instant feedback.</p>
+        </section>
+
+        <section className="feature">
+          <h2>🎥 Videos & Simulations</h2>
+          <p>Learn with curated YouTube videos and visual simulations.</p>
+        </section>
+
+        <section className="feature">
+          <h2>🧮 Problem Solving</h2>
+          <p>Stuck on a math or physics problem? Let the AI walk you through the solution.</p>
+        </section>
+
+        <section className="feature">
+          <h2>🧠 AI Tutoring</h2>
+          <p>Get personalized help like having a tutor with you 24/7.</p>
+        </section>
+
+        <section className="feature">
+          <h2>💾 Save Progress</h2>
+          <p>Track your quiz results and revisit past questions anytime.</p>
+        </section>
+      </main>
+
+      <footer className="app-footer">
+        <p>Created with ❤️ for students, self-learners, and STEM enthusiasts.</p>
+      </footer>
+    </div>
+  );
+};
+
+export default App;
